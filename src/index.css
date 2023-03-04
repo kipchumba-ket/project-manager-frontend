@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+.form-input {
+  @apply input input-bordered input-info my-4 w-full py-2
+}
+
+
+/* .form-input {
+  @apply p-3 bg-gray-100 rounded-lg w-full border-2 border-[#084E7A] outline-none focus-within:border-[#084e7a] focus-within:shadow-md focus-within:shadow-[#084e7a70]
+} */
+
+
+.form-label {
+  @apply text-xl pb-1
+}
+
+.title {
+  @apply text-sky-600 font-black md:text-6xl text-3xl text-center md:tracking-wide md:mb-8 mb-4
+}
+
+.content-title {
+  @apply md:text-4xl text-2xl font-black text-green-800 md:mb-4 mb-2
+}
+
+
+
+
+
+
