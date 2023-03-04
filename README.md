@@ -1,2 +1,2 @@
-# Getting Started with Prroject Management Application
+# Getting Started with Project Management Application
 
