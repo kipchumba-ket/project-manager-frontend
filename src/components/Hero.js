@@ -12,10 +12,10 @@ const Hero = () => {
                 >
                 <div className="flex flex-col justify-center items-center lg:my-24 md:my-16 my-6 md:mx-64 mx-8">
                     <h1 className="title uppercase">
-                        Project Management Made Easy! 
+                        Project ManagementbHas Been Made Easy! 
                     </h1>
                     <button className="btn">
-                        Get Started
+                        Getting Started
                     </button>
                 </div>
             </div>
