@@ -96,7 +96,7 @@ const AddProject = () => {
                     </div>
                     <div>
                         <label className='form-label'> 
-                            Subject/ Topic
+                            Subject
                         </label>
                         <input 
                             id="topic"
