@@ -1,6 +1,6 @@
 # Getting Started with Project Management Application
  ## Deploment link 
-   <a href = " https://project-manager-frontend-seven.vercel.app/">here</a>.
+  get the deploment link <a href = " https://project-manager-frontend-seven.vercel.app/">here</a>.
 
 ## Project Management App
 This project management app lets you organize projects into boards and tasks.
