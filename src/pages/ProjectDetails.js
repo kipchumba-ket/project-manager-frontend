@@ -1,6 +1,5 @@
 import React, {useContext, useEffect, useState} from "react";
 import { appContext } from "../AppContextProvider";
-import { apiHost } from "../Variables";
 
 function ProjectDetails(){
     const {projectOnEdit,setProjectOnEdit} = useContext(appContext)
@@ -8,7 +7,7 @@ function ProjectDetails(){
     const [allUsers, setAllUsers] = useState([])
 
     useEffect(()=>{
-        fetch(`${apiHost}/users`)
+        fetch('https://project-manager-backend-feef.onrender.com/users')
         .then(result => {
             if(result.ok){
                 result.json().then(data => {
@@ -37,7 +36,7 @@ function ProjectDetails(){
         const userId = newMember?.id
         const projectId = projectOnEdit?.id
 
-        fetch(`${apiHost}/project-memberships`, {
+        fetch('https://project-manager-backend-feef.onrender.com/project-memberships', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -68,7 +67,7 @@ function ProjectDetails(){
     function handleUpdateStatus(e){
         e.preventDefault()
 
-        fetch(`${apiHost}/statuses`, {
+        fetch('https://project-manager-backend-feef.onrender.com/statuses', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -88,6 +87,8 @@ function ProjectDetails(){
             }
         })       
     }
+
+
 
     return (
         <div id="project-details" className="flex gap-5 min-w-screen p-20">
