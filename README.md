@@ -6,7 +6,7 @@
 ## Project Management App
 This project management app lets you organize projects 
 
-Front-end Project  Management Interface
+### Front-end Project  Management Interface
 You can use this app in conjunction with my project management API         <a href = "https://github.com/kipchumba-ket/project-manager-backend">here</a>.           see the repo
 
 ## Technologies Used In This App
@@ -27,9 +27,15 @@ npm start
 ## Features
 
 ability to add user login
+
 show Projects
+
 Create a project
-Delete a project 
+
+Delete a project
+
 Project Dashboard
+
 Delete a task
+
 Update status of the task
