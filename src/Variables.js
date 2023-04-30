@@ -1,4 +1,4 @@
-const apiHost = "http://localhost:8000/"
+const apiHost = "https://fred.onrender.com/"
 
 
 export {apiHost}
